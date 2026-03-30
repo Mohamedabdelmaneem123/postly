@@ -1,0 +1,13 @@
+{
+  "name": "postly-scheduler-worker",
+  "version": "1.0.0",
+  "description": "Standalone scheduler worker for Postly",
+  "main": "scheduler.js",
+  "scripts": {
+    "start": "node scheduler.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "node-cron": "^3.0.2"
+  }
+}
